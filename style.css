@@ -1,0 +1,23 @@
+.toggle-button {
+    background-color: #ccc;
+    position: relative;
+    display: inline-flex;
+    width: 2.75rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: background-color 0.2s ease-in-out;
+    outline: none;
+    box-shadow: 0 0 0 2px white;
+}
+
+.toggle-slider {
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: none;
+    transition: transform 0.2s ease-in-out;
+}
